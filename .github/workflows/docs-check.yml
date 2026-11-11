@@ -48,3 +48,6 @@ jobs:
           fi
 
           echo "Documentation check completed successfully."
+
+      - name: Check Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
