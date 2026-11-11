@@ -2,7 +2,3 @@
 [sqlfluff]
 dialect = postgres
 templater = raw
-
-# Отключаем стилистические проверки.
-# Исторические SQL-файлы не должны переписываться ради форматирования.
-exclude_rules = all
