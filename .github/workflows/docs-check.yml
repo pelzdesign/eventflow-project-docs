@@ -1,0 +1,50 @@
+
+name: EventFlow Documentation Check
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  check-documentation:
+    name: Check project documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          files=(
+            "README.md"
+            "PROJECT_CONTEXT.md"
+            "02_architecture/database_schema.md"
+            "02_architecture/data_relationships.md"
+            "03_audits/database_audit.md"
+            "03_audits/rls_security_audit.md"
+            "03_audits/rsvp_audit.md"
+            "03_audits/application_audit.md"
+            "04_database/README.md"
+            "04_database/initial/README.md"
+          )
+
+          missing=0
+
+          for file in "${files[@]}"; do
+            if [ -f "$file" ]; then
+              echo "OK: $file"
+            else
+              echo "ERROR: Missing $file"
+              missing=1
+            fi
+          done
+
+          if [ "$missing" -ne 0 ]; then
+            exit 1
+          fi
+
+          echo "Documentation check completed successfully."
