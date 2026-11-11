@@ -51,3 +51,9 @@ jobs:
 
       - name: Check Markdown
         uses: DavidAnson/markdownlint-cli2-action@v19
+
+      - name: Install SQLFluff
+        run: python -m pip install sqlfluff
+
+      - name: Check SQL
+        run: sqlfluff lint --dialect postgres 04_database/initial/
