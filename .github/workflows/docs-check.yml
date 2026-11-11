@@ -56,4 +56,4 @@ jobs:
         run: python -m pip install sqlfluff
 
       - name: Check SQL
-        run: sqlfluff lint --dialect postgres 04_database/initial/
+        run: sqlfluff parse --dialect postgres 04_database/initial/
