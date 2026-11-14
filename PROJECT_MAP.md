@@ -75,7 +75,7 @@
 | Если задача про… | Читать в первую очередь | Затем |
 |---|---|---|
 | Текущий план и график | EventFlow/docs/DEMO_RELEASE_PLAN.md | Demo docs/PROJECT_STATUS.md |
-| Дизайн шаблона | 01_product/INVITATION_TEMPLATE_DESIGN_BRIEF.md и дорожную карту; для свадьбы восстановить исходное визуальное направление раннего обсуждения | Demo demo-guest.html, существующие стили и блоки |
+| Дизайн шаблона | 01_product/INVITATION_TEMPLATE_DESIGN_BRIEF.md; черновик новогодней концепции NEW_YEAR_TEMPLATE_CONCEPT_DRAFT.md; дорожную карту. Для свадьбы восстановить исходное визуальное направление раннего обсуждения | Demo demo-guest.html, существующие стили и блоки |
 | Функциональность гостевого приглашения | Demo docs/PROJECT_STATUS.md | demo-guest.html, demo-worker.js |
 | Кабинет организатора | Demo docs/PROJECT_STATUS.md | demo-organizer.html, demo-worker.js |
 | RSVP, гости, QR | Demo docs/PROJECT_STATUS.md | Соответствующий код и согласованные решения |
