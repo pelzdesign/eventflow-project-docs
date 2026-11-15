@@ -72,7 +72,6 @@
 - [Карта проекта](../PROJECT_MAP.md) — иерархия источников.
 - [Инструкции передачи контекста](https://github.com/pelzdesign/eventflow-project-hub/blob/main/AI_HANDOFF.md) — обязательный маршрут для помощников.
 
-
 ## 7. Visual references and previously agreed design decisions
 
 - The private repository [pelzdesign/eventflow-media](https://github.com/pelzdesign/eventflow-media) is the central library for visual references, source materials, reusable assets, and animations. It is separate from application code and project specifications.
