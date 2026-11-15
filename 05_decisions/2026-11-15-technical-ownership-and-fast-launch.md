@@ -71,3 +71,12 @@
 - [Статус Demo](https://github.com/pelzdesign/eventflow-demo/blob/main/docs/PROJECT_STATUS.md) — фактический код и проверки.
 - [Карта проекта](../PROJECT_MAP.md) — иерархия источников.
 - [Инструкции передачи контекста](https://github.com/pelzdesign/eventflow-project-hub/blob/main/AI_HANDOFF.md) — обязательный маршрут для помощников.
+
+
+## 7. Visual references and previously agreed design decisions
+
+- The private repository [pelzdesign/eventflow-media](https://github.com/pelzdesign/eventflow-media) is the central library for visual references, source materials, reusable assets, and animations. It is separate from application code and project specifications.
+- Before any design or animation task, assistants must inspect the current repository tree, `ASSET_INDEX.md`, relevant category README files, versions, statuses, rights, and actual media files. Do not ask the owner to resend references before checking this library.
+- The New Year invitation is based on the previously agreed interactive fairytale story, not on the later “Зимний вечер” proposal. Its full scenario is `references/products/new-year/fairytale/NEW_YEAR_STORY_SCENARIO.md` in eventflow-media.
+- The “Зимний вечер” concept draft is retained for history only and marked superseded.
+- As of 15 November 2026, the media repository has its folder structure and index, but its current main tree contains no registered binary visual reference/media files. Do not claim that source images are already available until files are actually present and indexed.
