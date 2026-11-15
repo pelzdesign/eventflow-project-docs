@@ -9,9 +9,9 @@
 Короткий маршрут:
 
 1. [Карта проекта и документации](./PROJECT_MAP.md) — навигация и иерархия источников.
-2. [Дорожная карта](https://github.com/PelzA83/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md) — график, текущий этап, обязательный функционал для демонстрации и отложенные задачи.
-3. [Статус публичной Demo](https://github.com/PelzA83/eventflow-demo/blob/main/docs/PROJECT_STATUS.md) — фактическая реализация и пользовательские проверки.
-4. [Спецификации](https://github.com/PelzA83/EventFlow/tree/main/docs/specifications) — утверждённые требования.
+2. [Дорожная карта](https://github.com/pelzdesign/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md) — график, текущий этап, обязательный функционал для демонстрации и отложенные задачи.
+3. [Статус публичной Demo](https://github.com/pelzdesign/eventflow-demo/blob/main/docs/PROJECT_STATUS.md) — фактическая реализация и пользовательские проверки.
+4. [Спецификации](https://github.com/pelzdesign/EventFlow/tree/main/docs/specifications) — утверждённые требования.
 
 ## Назначение репозитория
 
@@ -28,8 +28,8 @@
 
 ## Иерархия источников
 
-- Утверждённые спецификации и рабочая дорожная карта: приватный основной репозиторий PelzA83/EventFlow.
-- Фактическое состояние кода и пользовательских сценариев публичной Demo: PelzA83/eventflow-demo.
+- Утверждённые спецификации и рабочая дорожная карта: приватный основной репозиторий pelzdesign/EventFlow.
+- Фактическое состояние кода и пользовательских сценариев публичной Demo: pelzdesign/eventflow-demo.
 - Подробная архитектура, аудиты, SQL-архив и история: текущий репозиторий.
 - Публичный Project Hub: краткая навигационная копия для подключения новых участников.
 
