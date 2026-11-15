@@ -11,7 +11,6 @@
 
 Согласованные продуктовые решения отделяются от предложений и визуальных гипотез. Если конкретная палитра, шрифт, декоративный элемент или анимация не были утверждены, не указывать их как принятое решение.
 
-
 ## First demonstration products
 
 - New Year invitation: use the previously agreed interactive fairytale scenario documented in the private [eventflow-media repository](https://github.com/pelzdesign/eventflow-media/blob/main/references/products/new-year/fairytale/NEW_YEAR_STORY_SCENARIO.md). Do not substitute the superseded “Зимний вечер” proposal.
