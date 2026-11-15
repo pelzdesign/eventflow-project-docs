@@ -8,9 +8,9 @@
 
 Для быстрого понимания проекта достаточно пройти четыре шага:
 
-1. Открыть [дорожную карту](https://github.com/PelzA83/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md) — понять приоритет, график и следующий этап.
-2. Открыть [оперативный статус Demo](https://github.com/PelzA83/eventflow-demo/blob/main/docs/PROJECT_STATUS.md) — проверить, что фактически реализовано и протестировано.
-3. При необходимости открыть [спецификации](https://github.com/PelzA83/EventFlow/tree/main/docs/specifications) — сверить согласованные требования.
+1. Открыть [дорожную карту](https://github.com/pelzdesign/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md) — понять приоритет, график и следующий этап.
+2. Открыть [оперативный статус Demo](https://github.com/pelzdesign/eventflow-demo/blob/main/docs/PROJECT_STATUS.md) — проверить, что фактически реализовано и протестировано.
+3. При необходимости открыть [спецификации](https://github.com/pelzdesign/EventFlow/tree/main/docs/specifications) — сверить согласованные требования.
 4. По теме задачи перейти в соответствующий раздел этого репозитория: архитектура, аудит, база данных, решения или история.
 
 Не начинать с исторических SQL-файлов, старых аудитов или всей спецификации, если задача этого не требует.
@@ -19,17 +19,17 @@
 
 | Репозиторий | Назначение | Что в нём считать главным |
 |---|---|---|
-| [PelzA83/EventFlow](https://github.com/PelzA83/EventFlow) — приватный | Основной репозиторий приложения и утверждённых спецификаций | docs/DEMO_RELEASE_PLAN.md, docs/specifications/ |
-| [PelzA83/eventflow-demo](https://github.com/PelzA83/eventflow-demo) — публичный | Текущая демонстрационная реализация | Код Demo и docs/PROJECT_STATUS.md |
-| [PelzA83/eventflow-project-docs](https://github.com/PelzA83/eventflow-project-docs) — приватный | Дополнительная архитектурная, техническая и проектная документация | Этот файл, документы разделов 01–06, журнал решений и changelog |
-| [PelzA83/eventflow-project-hub](https://github.com/PelzA83/eventflow-project-hub) — публичный | Справочный пакет для подключения новых ИИ и участников | Навигация и краткие копии; не источник истины при расхождении |
+| [pelzdesign/EventFlow](https://github.com/pelzdesign/EventFlow) — приватный | Основной репозиторий приложения и утверждённых спецификаций | docs/DEMO_RELEASE_PLAN.md, docs/specifications/ |
+| [pelzdesign/eventflow-demo](https://github.com/pelzdesign/eventflow-demo) — публичный | Текущая демонстрационная реализация | Код Demo и docs/PROJECT_STATUS.md |
+| [pelzdesign/eventflow-project-docs](https://github.com/pelzdesign/eventflow-project-docs) — приватный | Дополнительная архитектурная, техническая и проектная документация | Этот файл, документы разделов 01–06, журнал решений и changelog |
+| [pelzdesign/eventflow-project-hub](https://github.com/pelzdesign/eventflow-project-hub) — публичный | Справочный пакет для подключения новых ИИ и участников | Навигация и краткие копии; не источник истины при расхождении |
 
 Репозитории не являются зеркалами друг друга. Не предполагать, что файл или изменение из одного автоматически присутствует в другом.
 
 ## 3. Иерархия источников истины
 
 ### План, сроки и приоритеты
-Источник: PelzA83/EventFlow/docs/DEMO_RELEASE_PLAN.md.
+Источник: pelzdesign/EventFlow/docs/DEMO_RELEASE_PLAN.md.
 
 Здесь искать:
 - текущий этап;
@@ -40,7 +40,7 @@
 - задачи, которые можно отложить.
 
 ### Фактическая реализация и проверки
-Источник: PelzA83/eventflow-demo/docs/PROJECT_STATUS.md и текущий код публичной Demo.
+Источник: pelzdesign/eventflow-demo/docs/PROJECT_STATUS.md и текущий код публичной Demo.
 
 Здесь искать:
 - какие элементы интерфейса и функции существуют;
@@ -51,7 +51,7 @@
 Описания в дорожной карте не заменяют проверку кода и актуального статуса.
 
 ### Согласованные продуктовые и архитектурные требования
-Источник: PelzA83/EventFlow/docs/specifications/.
+Источник: pelzdesign/EventFlow/docs/specifications/.
 
 На дату актуализации последняя опубликованная версия — **1.2**. Версии 1.0–1.2 сохранены отдельными файлами и не перезаписываются.
 
