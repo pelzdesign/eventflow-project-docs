@@ -26,7 +26,7 @@ EventFlow — платформа цифровых приглашений и ре
 Ранее обсуждавшиеся визуальные решения свадебных шаблонов сохраняются как исходная база. Не заменять их новой концепцией. Текущий дизайн-бриф фиксирует композицию и персонализацию, но не полностью переносит исходные визуальные решения раннего обсуждения; перед сборкой свадебного шаблона их нужно восстановить. Визуальное направление новогоднего шаблона предстоит разработать отдельно.
 
 Подробный график, критерии и классификация функциональности находятся в основном источнике:
-[EventFlow/docs/DEMO_RELEASE_PLAN.md](https://github.com/PelzA83/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md).
+[EventFlow/docs/DEMO_RELEASE_PLAN.md](https://github.com/pelzdesign/EventFlow/blob/main/docs/DEMO_RELEASE_PLAN.md).
 
 ## 3. Где смотреть актуальное состояние
 
@@ -45,12 +45,12 @@ EventFlow — платформа цифровых приглашений и ре
 ## 4. Технический контекст публичной Demo
 
 Текущая публичная демонстрация находится в репозитории:
-https://github.com/PelzA83/eventflow-demo
+https://github.com/pelzdesign/eventflow-demo
 
 Основные страницы:
-- стартовая: https://pelza83.github.io/eventflow-demo/demo.html
-- кабинет организатора: https://pelza83.github.io/eventflow-demo/demo-organizer.html
-- гостевое приглашение: https://pelza83.github.io/eventflow-demo/demo-guest.html
+- стартовая: https://pelzdesign.github.io/eventflow-demo/demo.html
+- кабинет организатора: https://pelzdesign.github.io/eventflow-demo/demo-organizer.html
+- гостевое приглашение: https://pelzdesign.github.io/eventflow-demo/demo-guest.html
 
 Текущая Demo использует SharedWorker и хранение данных в памяти активной сессии. Это временная демонстрационная архитектура:
 - не является постоянным хранилищем;
