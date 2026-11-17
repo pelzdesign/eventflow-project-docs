@@ -1,6 +1,6 @@
 # EventFlow — карта проекта и документации
 
-**Дата актуализации:** 15 ноября 2026 года  
+**Дата актуализации:** 17 ноября 2026 года  
 **Назначение:** единая навигация для владельца проекта, разработчиков и AI-ассистентов.  
 **Главное правило:** сначала определить вопрос, затем открыть документ-источник именно по этой теме. Не читать все репозитории подряд и не считать копии источниками истины.
 
@@ -21,10 +21,14 @@
 
 | Репозиторий | Назначение | Что в нём считать главным |
 |---|---|---|
-| [pelzdesign/EventFlow](https://github.com/pelzdesign/EventFlow) — приватный | Основной репозиторий приложения и утверждённых спецификаций | docs/DEMO_RELEASE_PLAN.md, docs/specifications/ |
-| [pelzdesign/eventflow-demo](https://github.com/pelzdesign/eventflow-demo) — публичный | Текущая демонстрационная реализация | Код Demo и docs/PROJECT_STATUS.md |
-| [pelzdesign/eventflow-project-docs](https://github.com/pelzdesign/eventflow-project-docs) — приватный | Дополнительная архитектурная, техническая и проектная документация | Этот файл, документы разделов 01–06, журнал решений и changelog |
-| [pelzdesign/eventflow-project-hub](https://github.com/pelzdesign/eventflow-project-hub) — публичный | Справочный пакет для подключения новых ИИ и участников | Навигация и краткие копии; не источник истины при расхождении |
+| [pelzdesign/EventFlow](https://github.com/pelzdesign/EventFlow) | Основной репозиторий приложения и утверждённых спецификаций | docs/DEMO_RELEASE_PLAN.md, docs/specifications/ |
+| [pelzdesign/eventflow-demo](https://github.com/pelzdesign/eventflow-demo) | Текущая демонстрационная реализация | Код Demo и docs/PROJECT_STATUS.md |
+| [pelzdesign/eventflow-project-docs](https://github.com/pelzdesign/eventflow-project-docs) | Дополнительная архитектурная, техническая и проектная документация | Этот файл, документы разделов 01–06, журнал решений и changelog |
+| [pelzdesign/eventflow-project-hub](https://github.com/pelzdesign/eventflow-project-hub) | Справочный пакет для подключения новых ИИ и участников | Навигация и краткие копии; не источник истины при расхождении |
+| [pelzdesign/eventflow-certificates](https://github.com/pelzdesign/eventflow-certificates) | Отдельный модуль цифровых сертификатов | Код модуля, его документация и PR |
+| [pelzdesign/eventflow-media](https://github.com/pelzdesign/eventflow-media) | Центральная медиатека референсов и reusable assets | ASSET_INDEX.md и материалы медиатеки |
+
+Для всех шести перечисленных репозиториев целевое состояние после внешнего аудита — **Private**. Фактическую текущую видимость необходимо проверить непосредственно перед переключением; эта карта не является подтверждением уже выполненного изменения. Подробная отложенная задача и порядок проверки: [возврат важных репозиториев в приватный режим](./05_decisions/2026-11-17-restore-important-repositories-to-private.md). Список является известным рабочим перечнем, но перед выполнением нужно проверить весь аккаунт владельца на наличие других важных репозиториев EventFlow.
 
 Репозитории не являются зеркалами друг друга. Не предполагать, что файл или изменение из одного автоматически присутствует в другом.
 
